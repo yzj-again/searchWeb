@@ -1,0 +1,63 @@
+2022-08-05 10:48:40,421 MyCategory [INFO] [src/server/SearchEngineServer.cpp:onConnection:42] 127.0.0.1:47138---->127.0.0.1:40602 has connected!
+2022-08-05 10:49:01,087 MyCategory [INFO] [src/server/SearchEngineServer.cpp:onMessage:49] receive from client: {
+    "msg": "hello",
+    "msgId": 2
+}
+2022-08-05 10:49:59,025 MyCategory [INFO] [src/server/SearchEngineServer.cpp:onMessage:49] receive from client: {
+    "msg": "hh",
+    "msgId": 1
+}
+2022-08-05 10:50:23,444 MyCategory [INFO] [src/server/SearchEngineServer.cpp:onMessage:49] receive from client: {
+    "msg": "国务院台湾事务办公室30日举行例行",
+    "msgId": 2
+}
+2022-08-05 10:50:59,431 MyCategory [INFO] [src/server/SearchEngineServer.cpp:onMessage:49] receive from client: {
+    "msg": "hello",
+    "msgId": 2
+}
+2022-08-05 10:53:23,026 MyCategory [INFO] [src/server/SearchEngineServer.cpp:onConnection:42] 127.0.0.1:47138---->127.0.0.1:42138 has connected!
+2022-08-05 10:55:10,170 MyCategory [INFO] [src/server/SearchEngineServer.cpp:onConnection:42] 127.0.0.1:47138---->127.0.0.1:43674 has connected!
+2022-08-05 10:59:03,387 MyCategory [INFO] [src/server/SearchEngineServer.cpp:onConnection:42] 127.0.0.1:47138---->127.0.0.1:46234 has connected!
+2022-08-05 10:59:10,455 MyCategory [INFO] [src/server/SearchEngineServer.cpp:onMessage:49] receive from client: {
+    "msg": "hello",
+    "msgId": 1
+}
+2022-08-05 10:59:14,044 MyCategory [INFO] [src/server/SearchEngineServer.cpp:onMessage:49] receive from client: {
+    "msg": "中国",
+    "msgId": 1
+}
+2022-08-05 10:59:19,666 MyCategory [INFO] [src/server/SearchEngineServer.cpp:onMessage:49] receive from client: {
+    "msg": "国务院",
+    "msgId": 2
+}
+2022-08-05 10:59:22,239 MyCategory [INFO] [src/server/SearchEngineServer.cpp:onMessage:49] receive from client: {
+    "msg": "hshsha",
+    "msgId": 2
+}
+2022-08-05 11:00:39,954 MyCategory [INFO] [src/server/SearchEngineServer.cpp:onConnection:42] 127.0.0.1:47138---->127.0.0.1:47258 has connected!
+2022-08-05 11:00:42,529 MyCategory [INFO] [src/server/SearchEngineServer.cpp:onMessage:49] receive from client:
+{
+    "msg": "hello",
+    "msgId": 1
+}
+2022-08-05 11:00:46,319 MyCategory [INFO] [src/server/SearchEngineServer.cpp:onMessage:49] receive from client:
+{
+    "msg": "hi中国",
+    "msgId": 1
+}
+2022-08-05 11:00:49,991 MyCategory [INFO] [src/server/SearchEngineServer.cpp:onMessage:49] receive from client:
+{
+    "msg": "hhes",
+    "msgId": 2
+}
+2022-08-05 11:00:54,458 MyCategory [INFO] [src/server/SearchEngineServer.cpp:onMessage:49] receive from client:
+{
+    "msg": "国务院",
+    "msgId": 2
+}
+2022-08-05 11:27:54,042 MyCategory [INFO] [src/server/SearchEngineServer.cpp:onConnection:42] 127.0.0.1:47138---->127.0.0.1:37021 has connected!
+2022-08-05 13:35:32,047 MyCategory [INFO] [src/server/SearchEngineServer.cpp:onConnection:42] 127.0.0.1:47138---->127.0.0.1:58529 has connected!
+2022-08-05 13:35:38,579 MyCategory [INFO] [src/server/SearchEngineServer.cpp:onConnection:42] 127.0.0.1:47138---->127.0.0.1:60577 has connected!
+2022-08-05 13:36:12,899 MyCategory [INFO] [src/server/SearchEngineServer.cpp:onConnection:42] 127.0.0.1:47138---->127.0.0.1:61601 has connected!
+2022-08-05 13:39:21,968 MyCategory [INFO] [src/server/SearchEngineServer.cpp:onConnection:42] 127.0.0.1:47138---->127.0.0.1:3234 has connected!
+2022-08-05 13:39:26,054 MyCategory [INFO] [src/server/SearchEngineServer.cpp:onConnection:42] 127.0.0.1:47138---->127.0.0.1:3746 has connected!

@@ -1,0 +1,50 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/masker/SearchEngine'
+g++ -c src/DictBuilder/DictProducer.cpp -o objs/DictBuilder/DictProducer.o
+g++ -c src/DictBuilder/CppJieba.cpp -o objs/DictBuilder/CppJieba.o
+g++ -c src/DictBuilder/Configuration.cpp -o objs/DictBuilder/Configuration.o
+g++ -c src/DictBuilder/main.cpp -o objs/DictBuilder/main.o
+g++ objs/DictBuilder/DictProducer.o objs/DictBuilder/CppJieba.o objs/DictBuilder/Configuration.o objs/DictBuilder/main.o -o bin/DictBuilder -lpthread -llog4cpp -lredis++ -lhiredis -pthread -std=c++11
+g++ -c src/WebProcessor/tinyxml2.cpp -o objs/WebProcessor/tinyxml2.o
+g++ -c src/WebProcessor/Configuration.cpp -o objs/WebProcessor/Configuration.o
+g++ -c src/WebProcessor/PageLib.cpp -o objs/WebProcessor/PageLib.o
+g++ -c src/WebProcessor/PageLibPreprocessor.cpp -o objs/WebProcessor/PageLibPreprocessor.o
+g++ -c src/WebProcessor/DirScanner.cpp -o objs/WebProcessor/DirScanner.o
+g++ -c src/WebProcessor/main.cpp -o objs/WebProcessor/main.o
+g++ -c src/WebProcessor/WebPage.cpp -o objs/WebProcessor/WebPage.o
+g++ objs/WebProcessor/tinyxml2.o objs/WebProcessor/Configuration.o objs/WebProcessor/PageLib.o objs/WebProcessor/PageLibPreprocessor.o objs/WebProcessor/DirScanner.o objs/WebProcessor/main.o objs/WebProcessor/WebPage.o -o bin/WebProcessor -lpthread -llog4cpp -lredis++ -lhiredis -pthread -std=c++11
+ 
+g++ -c src/server/TcpServer.cpp -o objs/server/TcpServer.o
+g++ -c src/server/Mylogger.cpp -o objs/server/Mylogger.o
+g++ -c src/server/SocketIO.cpp -o objs/server/SocketIO.o
+g++ -c src/server/MyRedis.cpp -o objs/server/MyRedis.o
+g++ -c src/server/Thread.cpp -o objs/server/Thread.o
+g++ -c src/server/Configuration.cpp -o objs/server/Configuration.o
+g++ -c src/server/tinyxml2.cpp -o objs/server/tinyxml2.o
+g++ -c src/server/Socket.cpp -o objs/server/Socket.o
+g++ -c src/server/LRUCache.cpp -o objs/server/LRUCache.o
+g++ -c src/server/Acceptor.cpp -o objs/server/Acceptor.o
+g++ -c src/server/ThreadPool.cpp -o objs/server/ThreadPool.o
+g++ -c src/server/TcpConnection.cpp -o objs/server/TcpConnection.o
+g++ -c src/server/TimerFd.cpp -o objs/server/TimerFd.o
+g++ -c src/server/MyJson.cpp -o objs/server/MyJson.o
+g++ -c src/server/TaskQueue.cpp -o objs/server/TaskQueue.o
+g++ -c src/server/KeyRecommander.cpp -o objs/server/KeyRecommander.o
+g++ -c src/server/WebPageQuery.cpp -o objs/server/WebPageQuery.o
+g++ -c src/server/Condition.cpp -o objs/server/Condition.o
+g++ -c src/server/SearchEngineServer.cpp -o objs/server/SearchEngineServer.o
+g++ -c src/server/MutexLock.cpp -o objs/server/MutexLock.o
+g++ -c src/server/InetAddress.cpp -o objs/server/InetAddress.o
+ 
+g++ -c src/server/main.cpp -o objs/server/main.o
+g++ -c src/server/Dictionary.cpp -o objs/server/Dictionary.o
+g++ -c src/server/WebPage.cpp -o objs/server/WebPage.o
+g++ -c src/server/WebPageSearcher.cpp -o objs/server/WebPageSearcher.o
+g++ -c src/server/EventLoop.cpp -o objs/server/EventLoop.o
+g++ objs/server/TcpServer.o objs/server/Mylogger.o objs/server/SocketIO.o objs/server/MyRedis.o objs/server/Thread.o objs/server/Configuration.o objs/server/tinyxml2.o objs/server/Socket.o objs/server/LRUCache.o objs/server/Acceptor.o objs/server/ThreadPool.o objs/server/TcpConnection.o objs/server/TimerFd.o objs/server/MyJson.o objs/server/TaskQueue.o objs/server/KeyRecommander.o objs/server/WebPageQuery.o objs/server/Condition.o objs/server/SearchEngineServer.o objs/server/MutexLock.o objs/server/InetAddress.o objs/server/main.o objs/server/Dictionary.o objs/server/WebPage.o objs/server/WebPageSearcher.o objs/server/EventLoop.o -o bin/server -lpthread -llog4cpp -lredis++ -lhiredis -pthread -std=c++11
+g++ -c src/client/SearchEngineClient.cpp -o objs/client/SearchEngineClient.o
+g++ -c src/client/main.cpp -o objs/client/main.o
+g++ -c src/client/MyJson.cpp -o objs/client/MyJson.o
+g++ objs/client/SearchEngineClient.o objs/client/main.o objs/client/MyJson.o -o bin/client -lpthread -llog4cpp -lredis++ -lhiredis -pthread -std=c++11
+make: Leaving directory '/home/masker/SearchEngine'
+ 
